@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- "DOCTYPE tells the browser what type of doc this is, i.e. HTML."-->
+<html lang="en">
+  <!-- This tells the browser what language the website is in, i.e. English.-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud types</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <video id="backgroundvideo" autoplay loop muted>
+        <source src="./cloudbackground.mp4" type="video/mp4" />
+      </video>
+      <div class="intro">
+        <h1>
+          What type of cloud am I <br />
+          looking at?
+        </h1>
+        <p>
+          Enter air temperature in Celsius, atmospheric stability in
+          Doppelzentners (dz), and cloud depth in meters and I will tell you
+          what type of cloud you're observing.
+        </p>
+      </div>
+    </div>
+    <div id="entrySection" class="entry_section">
+      <div>
+        <p>Please enter air temperature in Celsius.</p>
+        <input type="number" id="userInputTemp" />
+      </div>
+      <div>
+        <p>Please enter atmosphereic stability in Doppelzentners (dz).</p>
+        <input type="number" id="userInputDZ" />
+      </div>
+      <div>
+        <p>Please enter cloud depth in meters.</p>
+        <input type="number" id="userInputCloudDepth" />
+      </div>
+      <button id="submit" type="button">What cloud is this?</button>
+    </div>
+    <h1 id="result"></h1>
+    <script>
+      // document.getElementById("cloudresult").innerHTML = "cloud A";
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
