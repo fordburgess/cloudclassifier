@@ -76,6 +76,14 @@ button:hover {
   font-family: 150;
   font-weight: 500;
   text-align: center;
-  margin-top: 500px;
-  margin-bottom: 500px;
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+#cloudPhoto {
+  display: none;
+  max-height: 500px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
